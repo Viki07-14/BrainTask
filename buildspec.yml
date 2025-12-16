@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "Hello build"
       - docker build -t brain-task-app:latest .
-      - docker tag brain-task-app:latest 213375652280.dkr.ecr.ap-south-1.amazonaws.com/brain-task-app:latest
+      - docker tag brain-task-app:latest 213375652280.dkr.ecr.ap-south-1.amazonaws.com/brain-task-app:1
   post_build:
     commands:
       - echo "Hello post_build"
