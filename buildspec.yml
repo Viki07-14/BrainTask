@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo "Hello post_build"
-      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
+      - docker push 213375652280.dkr.ecr.ap-south-1.amazonaws.com/brain-task-app:1
